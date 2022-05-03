@@ -1,12 +1,19 @@
+import React from 'react'
+import Router from './Route/Router'
+import styled from 'styled-components'
 
-import './App.css';
+import GlobalState from './global/GlobalState';
 
-function App() {
+const Container = styled.div``
+
+export default function App() {
+
   return (
-    <div className="App">
-     <p>Olá Mundo</p>
-    </div>
-  );
-}
 
-export default App;
+    <GlobalState>
+      <Router />
+    </GlobalState>
+
+  )
+
+}
