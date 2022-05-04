@@ -1,6 +1,6 @@
 import React from "react"
 import HomePage from "../Pages/HomePage/HomePage"
-import DetailPage from "../Pages/Detail Page"
+import DetailPage from "../Pages/DetailPage/DetailPage"
 import PokedexPage from "../Pages/Pokedex/PokedexPage"
 
 import{BrowserRouter , Route , Switch } from "react-router-dom"
@@ -9,7 +9,7 @@ function Router ()
 {
     return(
         <BrowserRouter>
-            <switch>
+            <Switch>
                 <Route exact path={"/"}>
                     <HomePage/>
                 </Route>
@@ -18,10 +18,10 @@ function Router ()
                     <PokedexPage/>
                 </Route>
                 
-                <Route exact path={"/datais/:id"}>
+                <Route exact path={"/datails/:name"}>
                     <DetailPage/>
                 </Route>
-            </switch>
+            </Switch>
         </BrowserRouter>
     )
 }
