@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useHistory } from "react-router";
-import Header from "../../Componets/Header";
+import Header from "../../Components/Header";
 
 
  const PokedexPage =()=>{
