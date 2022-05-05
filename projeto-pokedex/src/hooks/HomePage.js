@@ -17,6 +17,7 @@ export const Header = styled.h3`
 
 `
 export const BoxProduto = styled.div`
+  background-color: #808080;
   display:grid;
   grid-template-columns: repeat(3,2fr);
   row-gap: 20px;

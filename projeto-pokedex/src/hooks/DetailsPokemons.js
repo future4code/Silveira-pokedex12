@@ -4,6 +4,7 @@ import { useHistory, useParams } from 'react-router-dom'
 import axios from 'axios'
 
 export const Container = styled.main`
+
     height: 80vh;
     width: 100vh;
     margin: 20px 10vw;
