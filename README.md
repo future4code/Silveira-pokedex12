@@ -1,11 +1,12 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Jorge Pissolato
+- Helen Carolini Pereira
+- Gabriel Menezes Souza
 
-Link do Surge: www.link.com.br
+Link do Surge:  torpid-hand.surge.sh
+
 
 O que funciona:
 - Item 1
